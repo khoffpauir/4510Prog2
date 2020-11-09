@@ -1,3 +1,11 @@
+/*
+  Authors: Nathan Markle and Kyle Hoffpauir
+  Date: 11/08/2020
+  Class: CSC-4510
+  Description:
+    A Java program emphasizing the manner in which paramter OBJECTS are passed in functions in Java
+*/
+
 public class JavaRef {
     public static void main(String[] args) {
 

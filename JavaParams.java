@@ -1,3 +1,13 @@
+/*
+  Authors: Nathan Markle and Kyle Hoffpauir
+  Date: 11/08/2020
+  Class: CSC-4510
+  Description:
+    A Java program that exercises scope levels and parameter passing in the Java language
+    output and comments together tell a story of the way in which parameters exist in scope and the
+    manner in which parameters are passed between main and add functions. 
+*/
+
 package com.khoffpauir;
 import java.util.Scanner;
 

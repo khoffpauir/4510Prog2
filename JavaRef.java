@@ -14,6 +14,14 @@ public class JavaRef {
     //not persist outside of the function, as it creates a shallow copy of the object only taking it's value
     System.out.println("AFTER FUNCTION -- Obj = " + obj);
 
+
+    Integer x = new Integer(100);
+    //the integer y does not contain THE String object returned by x's toString. it merely holds a reference to 
+    //and empty string object that contains solely the information of the value of x's toString
+    //Java does NOT pass entire objects back and forth, they only pass references to hollow objects that contain
+    //relevant information.
+    String y = x.toString();
+
   }
 
     static void setObjToInt(Object paramObj) {
